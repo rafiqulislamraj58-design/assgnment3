@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle, #2d1b22, #000000);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.nav-contaienr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px 20px;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    color: white;
+}
+.menu-items{
+    color: white;
+}
+#watch{
+    border-bottom: 1px solid rgb(231, 91, 231);
+}
+.banner{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.text{
+    color: white;
+}
+.btn1{
+     background: linear-gradient(135deg, #ff9900, #f1c43a);
+     border: none;
+     padding: 10px 8px;
+     border-radius: 8px;
+     color: white;
+}
+.btn2{
+    background-color: transparent;
+     border: none;
+     padding: 10px 8px;
+     border: 1px solid white;
+     margin-top: 5px;
+     border-radius: 8px;
+     color: white;
+}
+.main-secion{
+    position: relative;
+    max-width: 1600px;
+    margin: 20px auto;
+}
+.textcontainer{
+    position: absolute;
+    font-size: 28px;
+    top: 74%;
+}
+.btncontainer{
+    display: flex;
+    gap: 8px;
+}
+.banner{
+    display: flex;
+    gap: 550px;
+    justify-content: space-between;
+}
+.left{
+     color: white;
+    font-size: 50px;
+    position: absolute;
+    font: bold;
+    right: 5%;
+    top: 35%;
+    rotate: 90deg;
+   text-transform: uppercase;
+   font-size: 95px;
+   opacity: 0.1;  
+
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font: bold;
+    right: 16%;
+    top: 35%;
+   text-transform: uppercase;
+   font-size: 30px;
+   opacity: 0.1;  
+}
+.buttom{
+      color: white;
+    font-size: 50px;
+    position: absolute;
+    font: bold;
+    left: 25%;
+    top: 78%;
+   text-transform: uppercase;
+   font-size: 95px;
+   opacity: 0.1;  
+
+}
+.vediocotainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    margin: 0 auto;
+    gap: 10px;
+    top:600px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding:50px 55px;
+    border-radius: 10px;
+}
